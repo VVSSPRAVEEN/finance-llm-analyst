@@ -64,14 +64,4 @@ accuracy, SQL validity, domain coverage).
 `sqlgen.validate_sql` is the only door: SELECT-only, five whitelisted
 tables, whitelisted columns, no semicolons/comments/UNION/DDL/DML, no
 unknown identifiers. Injection attempts (`DROP TABLE`, stacked queries,
-`information_schema`) are rejected by unit tests.
-
-## Big-data mode
-
-```bash
-python -m finance_llm.scale --target-gb 6   # generates ~6GB parquet under data/ (gitignored)
-```
-
-`scale` materializes a multi-hundred-million-row transaction fact table
-so the project ships with 5GB+ of real queryable data while the git
-repo stays lean (GitHub hard-caps repos at 5GB).
+ `information_schema`) are rejected by unit tests.
