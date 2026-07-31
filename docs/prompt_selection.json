@@ -1,0 +1,49 @@
+{
+  "winner": {
+    "name": "few_shot_rich",
+    "parse_rate": 1.0,
+    "plan_acc": 1.0,
+    "sql_ok": 0.571,
+    "coverage": 0.857,
+    "live_acc": 0.0,
+    "score": 0.864
+  },
+  "results": [
+    {
+      "name": "few_shot_rich",
+      "parse_rate": 1.0,
+      "plan_acc": 1.0,
+      "sql_ok": 0.571,
+      "coverage": 0.857,
+      "live_acc": 0.0,
+      "score": 0.864
+    },
+    {
+      "name": "domain_context",
+      "parse_rate": 1.0,
+      "plan_acc": 1.0,
+      "sql_ok": 0.571,
+      "coverage": 0.786,
+      "live_acc": 0.0,
+      "score": 0.85
+    },
+    {
+      "name": "chain_of_thought",
+      "parse_rate": 1.0,
+      "plan_acc": 1.0,
+      "sql_ok": 0.571,
+      "coverage": 0.786,
+      "live_acc": 0.0,
+      "score": 0.85
+    },
+    {
+      "name": "strict_minimal",
+      "parse_rate": 1.0,
+      "plan_acc": 1.0,
+      "sql_ok": 0.571,
+      "coverage": 0.429,
+      "live_acc": 0.0,
+      "score": 0.779
+    }
+  ]
+}
