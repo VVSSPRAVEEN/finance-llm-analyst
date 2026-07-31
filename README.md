@@ -69,7 +69,7 @@ unknown identifiers. Injection attempts (`DROP TABLE`, stacked queries,
 ## Big-data mode
 
 ```bash
-python -m finance_llm.cli scale --target-gb 6   # generates ~6GB parquet under data/ (gitignored)
+python -m finance_llm.scale --target-gb 6   # generates ~6GB parquet under data/ (gitignored)
 ```
 
 `scale` materializes a multi-hundred-million-row transaction fact table
